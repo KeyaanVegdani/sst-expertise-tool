@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <script src="app.js" defer></script>
+  <title>SS&T Expertise</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="page-content">
+        <div class="side-bar">
+            <div>
+                <img src="assets/CSA_Logo.png" class="csa-photo" id="#top">
+
+                <h4>
+                    Space Science & Technology's
+                </h4>
+                <h1>
+                    EXPERTISE
+                </h1>
+
+            </div>
+            <div class="users-content">
+    
+                <div class="search-wrapper">
+                    <label for="search" class="search-label">Search</label>
+                    <input type="search" id="search" placeholder="Search for people or expertise" data-search>
+                </div>
+    
+                <h2>
+                    Filters
+                </h2>
+
+
+                <a class="reset-button" onclick="setAllVisible()">Reset</a>
+
+
+
+                <details class="top-one">
+                    <summary>
+                        Department
+                    </summary>
+
+                    <div class="buttons">
+
+                        <button type="button" class="button" onclick="setDirectorate('Planning & Integration')">Planning & Integration</button>
+                        <button type="button" class="button" onclick="setDirectorate('Technology Development Management')">Technology Dev. Management</button>
+                        <button type="button" class="button" onclick="setDirectorate('Engineering Development')">Engineering Development</button>
+                        <button type="button" class="button" onclick="setDirectorate('Director General')">Dg's Office</button>
+                    </div>
+                </details>
+
+                <details >
+                    <summary>
+                        Project or Initiative
+                    </summary>
+                    <div class="buttons" >
+                        <button type="button" class="button" onclick="setProject('CapDemo')">CapDemo</button>
+                        <button type="button" class="button" onclick="setProject('HAWC')">HAWC</button>
+                        <button type="button" class="button" onclick="setProject('QEYSSat')">QEYSSat</button>
+                        <button type="button" class="button" onclick="setProject('Small Innovative Missions')">Small Innovative Missions</button>
+                        <button type="button" class="button" onclick="setProject('ESA')">ESA</button>
+                        <button type="button" class="button" onclick="setProject('Innovative Solutions Canada')">Innovative Solutions Canada</button>
+                        <button type="button" class="button" onclick="setProject('STDP')">STDP</button>
+                        <button type="button" class="button" onclick="setProject('STDP-Contracts')">STDP-Contracts</button>
+                        <button type="button" class="button" onclick="setProject('STDP-Contributions')">STDP-Contributions</button>
+                        <button type="button" class="button" onclick="setProject('STEDiA')">STEDiA</button>
+                        <button type="button" class="button" onclick="setProject('Conference & Training AO')">Conference & Training AO</button>
+                        <button type="button" class="button" onclick="setProject('CUBICS')">CUBICS</button>
+                        <button type="button" class="button" onclick="setProject('EUIC-NSERC Alliance supplement')">EUIC-NSERC Alliance supplement</button>
+                        <button type="button" class="button" onclick="setProject('FAST')">FAST</button>
+                        <button type="button" class="button" onclick="setProject('STRATOS')">STRATOS</button>
+                        <button type="button" class="button" onclick="setProject('NSERC-PDF Supplement')">NSERC-PDF supplement</button>
+                        <button type="button" class="button" onclick="setProject('Space Solutions Initiative')">Space Solutions Initiative</button>
+                        <button type="button" class="button" onclick="setProject('EDI AO')">EDI AO</button>
+                        <button type="button" class="button" onclick="setProject('OSIRIS-REx')">OSIRIS-REx</button>
+                        <button type="button" class="button" onclick="setProject('Lunar Analog Terrain Extension')">Lunar Analog Terrain Extension</button>
+                        <button type="button" class="button" onclick="setProject('ECO-1')">ECO-1</button>
+                    </div>
+                </details>
+
+                <details class="bottom-one">
+                    <summary>
+                        Expertise
+                    </summary>
+
+                </details>
+        
+
+            </div>
+        </div>
+
+        <div class="people-content">
+
+ 
+    
+     
+        <div class="persons">
+            <div class="users-content">
+    
+                <div class="user-cards" data-user-cards-container></div>
+                <template data-user-template>
+                  <div class="card">
+                      <div>
+                        <div class="person-header">
+                            <div class="header" data-header></div>
+                            <a class="email" data-email> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#26374A"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg></a>
+                        </div>
+
+                          <div class="job-title" data-title></div>
+                          <div class="expertise" data-expertise></div>
+                          <div class="body" data-body></div>
+                          
+                          <div class="two-tag">
+                            <div class="directorate" data-directorate></div>
+                            <div class="directorate" data-project></div>
+                          </div>
+
+
+                      </div>
+                      <img class="person-img" data-img>
+                    
+              
+                  </div>
+              </template>
+              </div>
+        </div>
+
+        <a class="floating-button" href="#top">
+            Back to Top
+        </a>
+
+    </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

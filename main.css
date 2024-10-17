@@ -1,0 +1,322 @@
+
+  
+  .search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+  }
+
+  
+  input {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    padding: 0.5rem;
+  }
+
+  .search-label{
+    font-family: Roboto, sans-serif;
+    color: #555555;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  h2{
+    font-family: Roboto, sans-serif;
+    color: #555555;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+  }
+  
+  .user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .card {
+
+    background-color: white;
+    padding: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem #919aa7;
+
+  }
+
+  .button{
+    font-family: Roboto, sans-serif;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: #ffffff;
+    border: solid black 0.0rem;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    transition: all 0.15s;
+  }
+
+  .button:hover, .button:focus{
+    background-color: #3f73e2;;
+    color: white;
+    transform: scale(103%);
+    cursor:pointer;
+  }
+
+  .buttons{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .person-img{
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+
+  
+  
+  .header {
+    margin-bottom: .25rem;
+    font-family: Lato, sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #444444;
+    display: inline-block;
+  }
+  
+  .body {
+    font-size: .8rem;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    max-width: 20rem;
+    margin-bottom: 1rem;
+  }
+
+  .job-title{
+    font-family: Roboto, sans-serif;
+    color: #3f73e2;
+    margin-bottom: 0.25rem;
+  }
+
+  .expertise{
+    font-family: Roboto, sans-serif;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+    background-color: #3f73e2;
+    max-width: fit-content;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+  }
+
+  .email{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #26374A;
+    display: inline-block;
+    margin-left: 0.5rem;
+    
+  }
+
+  .email:hover{
+    svg{
+      fill: #3f73e2;
+      transform: scale(103%);
+    }
+
+  }
+
+  .directorate{
+    font-family: Roboto, sans-serif;
+    font-size: 0.6rem;
+    margin-top: 1rem;
+    background-color: #555555;
+    max-width: fit-content;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.4rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+  }
+
+  .supervisor{
+    font-family: Roboto, sans-serif;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .users-content{
+    margin: auto;
+    max-width: 70rem;
+    margin-bottom: 3rem;
+  }
+
+  h1{
+    font-size: 3.5rem;
+    margin-top: none;
+    font-family: Roboto, sans-serif;
+    color: #3f73e2;
+    font-weight: 300;
+    padding-top: none;
+  }
+
+  h4{
+    margin-bottom: -2rem;
+    font-family: Roboto, sans-serif;
+    margin-left: 0.2rem;
+  }
+
+
+.csa_logo{
+    max-width: 15rem;
+    margin-top: 3rem;
+}
+
+.persons{
+  border-radius: 1rem;
+  padding-top: 0.001rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  max-width: 70rem;
+  margin:auto;
+}
+
+
+.tool-description{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.csa-photo{
+  max-width: 70%;
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+}
+p{
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #555555;
+  margin-right: 5rem;
+}
+
+.header-photo{
+  max-width: 70%;
+  margin: auto;
+}
+
+.page-content{
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+.people-content{
+  background-color: #d4dbe4;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  margin-left: 3rem;
+  margin-bottom: none;
+  /* height: 278vh;
+  overflow-y: scroll; */
+}
+
+summary{
+  font-family: roboto, sans-serif;
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+  margin-bottom: none;
+  margin-top: none;
+  border-radius: 0.5rem;
+}
+
+details{
+  background-color: #d4dbe4;
+  padding-top: 0.25rem;
+  transition: 0.3s;
+}
+
+summary:hover{
+  background-color: #3f73e2;
+  cursor: pointer;
+  color: white;
+  transform: scale(103%);
+}
+
+.top-one{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-top: 0.5rem;
+}
+
+.bottom-one{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-bottom: 0.6rem;
+}
+
+.side-bar{
+  margin-left: 1rem;
+
+}
+
+.floating-button{
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1rem;
+  font-family: roboto, sans-serif;
+  text-decoration: none;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 1rem #919aa7;
+  transition: all 0.2s;
+
+}
+
+.floating-button:hover{
+  background-color: #3f73e2;
+  color: #ffffff;
+  transform: scale(105%);
+}
+
+/* .two-tag{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  float: left;
+} */
+
+.reset-button{
+  cursor: pointer;
+  font-family: Roboto,sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+
+.reset-button:hover{
+  color: #3f73e2;
+  transform: scale(104%);
+}
