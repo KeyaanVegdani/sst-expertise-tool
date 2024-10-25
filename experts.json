@@ -1,16 +1,71 @@
 [
-    {
-    "last": "Gloutnay",
-    "first": "Eric",
-    "title": "Acting Manager, Power and Digital Electronic Engineering Group",
-    "directorate": "Engineering Development",
-    "project": "QEYSSat",
+{
+    "last": "Pellerin",
+    "first": "Tony",
+    "title": "Manager, ESA Programs & Small Solutions Initiative",
+    "emailFull": "mailto:ramata-helene.gagnon@asc-csa.gc.ca>ramata-helene.gagnon@asc-csa.gc.ca</a>",
+    "directorate": "Technology Development Management",
+    "project": "CUBICS",
+    "supervisor": "Faubert, Guillaume",
     "expertise": "Electrical Engineering",
-    "photo": "assets/pfp1.png",
-    "biography": "Eric Gloutnay graduated from L'Ecole Polytechnique de Montreal in 1997 with a Bachelor of Engineering Science Degree in Engineering Physics. He joined the Canadian Space Agency in January 1996, working for the Canadian Astronaut Office on a project related to space radiation and its impact on astronauts and space systems.  Eric then joined the Power and Digital Electronic group in Space Science and Technologies Directorate where he participated in the design and testing of a satellite core (Quicksat).  He has also been active in different CSA projects related to the exploration of Mars (Phoenix and MSL), Astronomy (JWST, ASTRO-H), Space Utilization (RCM, M3MSAT, etc), and missions to the Moon (Gateway, Lunar Rover).  More recently he plays the role of System Engineer in the Quantum Key Distribution mission QEYSSAT.
-Adding to the expertise on space radiation environment and effects, Eric has expertise in Electro-Magnetic Compatibility, ElectroStatic Discharge, and Electrical Component Engineering.",
-    "email": "mailto:kva20@sfu.ca"
-},
+    "photo": "assets/tony.jpg",
+    "biography": "Tony Pellerin is an accomplished professional with a strong background in Electrical Engineering. He obtained his B.A.Sc. in Electrical Engineering from the University of Ottawa, followed by a Master's degree from École Polytechnique de Montréal. Throughout his career, Tony has been extensively involved in numerous national and international missions as a technical expert and technical lead. Notable projects he has contributed to include Radarsat 1, Radarsat 2, Radarsat Constellation Mission (RCM), MOST, UVIT, SCISAT, M3MSat, NEOSSat, Quicksat, JC2Sat, CASSIOPE, and the Canadian Cubesat Project (CCP) initiative. Tony has also been appointed as the Canadian delegate to the European Space Agency (ESA) telecommunication and navigation program for his expertise in SATCOM, further solidifying his standing as a respected professional in the field.",
+    "email": "mailto:ramata-helene.gagnon@asc-csa.gc.ca"
+},    
+{
+    "last": "Bourget",
+    "first": "Michael",
+    "title": "Senior Advisor, PLanning, Engagement & Innovation",
+    "emailFull": "mailto:ramata-helene.gagnon@asc-csa.gc.ca>ramata-helene.gagnon@asc-csa.gc.ca</a>",
+    "directorate": "Planning & Integration",
+    "supervisor": "Faubert, Guillaume",
+    "expertise": "Data Analysis",
+    "project": "CapDemo",
+    "photo": "assets/michael.jpg",
+    "biography": "In his current role as Senior Advisor to the PMI team, Michaël oversees, and coordinates activities related to performance measurement for the Space Capabilities Development program under the responsibility of Space Science and Technology (SST). He advises branch teams on official programmatic and departmental results and indicators. Michaël began his career at CSA in 2016, where he worked in various roles associated with intellectual property management and technology transfer. Then, in 2020, he began working in performance measurement for SST. Michaël holds a masters degree in science and technology studies, with a focus on the measurement of scientific research, technology development and innovation. He is currently specializing in data processing, analysis, and visualization.",
+    "email": "mailto:ramata-helene.gagnon@asc-csa.gc.ca"
+},    
+{
+    "last": "Martin",
+    "first": "Iulian",
+    "title": "Program Officer, Science, Technology, & Expertise Development",
+    "emailFull": "mailto:ramata-helene.gagnon@asc-csa.gc.ca>ramata-helene.gagnon@asc-csa.gc.ca</a>",
+    "directorate": "Engineering Development",
+    "project": "STEDiA",
+    "supervisor": "Faubert, Guillaume",
+    "expertise": "Program Management",
+    "photo": "assets/iulian.jpg",
+    "biography": "Iulian Martin serves as Program Officer, Science, Technology and Expertise Development in Academia (STEDiA) within the Space Science and Technology (SST) branch. In his role, he is responsible for planning, developing and implementing initiatives to support projects that aim space research and technology development in the Canadian academic sector. He is also responsible for initiatives that offer to the post-secondary students opportunities to gain experience in space domain and thus preparing the next generation of space professionals in Canadian space sector. With a strong background in managing grants and contributions programs, he is experienced in program and project management as well as in working with the academic sector.  Additionally, he gained competencies in the development and implementing learning, outreach and awareness activities for youth to inspire them to STEM domain. He is currently responsible for FAST and NASA I2 initiatives.",
+    "email": "mailto:ramata-helene.gagnon@asc-csa.gc.ca"
+},    
+
+{
+    "last": "Gloutnay",
+    "first": "Éric",
+    "title": "Acting Manager, Digital Electronic Engineering Group",
+    "emailFull": "mailto:ramata-helene.gagnon@asc-csa.gc.ca>ramata-helene.gagnon@asc-csa.gc.ca</a>",
+    "directorate": "Engineering Development",
+    "supervisor": "Faubert, Guillaume",
+    "expertise": "Quantum Key Distribution",
+    "project": "QEYSSat",
+    "photo": "assets/eric.jpg",
+    "biography": "Eric Gloutnay graduated from L'Ecole Polytechnique de Montreal in 1997 with a Bachelor of Engineering Science Degree in Engineering Physics. He joined the Canadian Space Agency in January 1996, working for the Canadian Astronaut Office on a project related to space radiation and its impact on astronauts and space systems.  Eric then joined the Power and Digital Electronic group in Space Science and Technologies Directorate where he participated in the design and testing of a satellite core (Quicksat).  He has also been active in different CSA projects related to the exploration of Mars (Phoenix and MSL), Astronomy (JWST, ASTRO-H), Space Utilization (RCM, M3MSAT, etc), and missions to the Moon (Gateway, Lunar Rover).  More recently he plays the role of System Engineer in the Quantum Key Distribution mission QEYSSAT. Adding to the expertise on space radiation environment and effects, Eric has expertise in Electro-Magnetic Compatibility, ElectroStatic Discharge, and Electrical Component Engineering.",
+    "email": "mailto:ramata-helene.gagnon@asc-csa.gc.ca"
+},  
+
+{
+    "last": "Gagnon",
+    "first": "Ramata-Hélène",
+    "title": "Manager, Planning, Engagement & Innovation",
+    "emailFull": "mailto:ramata-helene.gagnon@asc-csa.gc.ca>ramata-helene.gagnon@asc-csa.gc.ca</a>",
+    "directorate": "Planning and Integration",
+    "supervisor": "Faubert, Guillaume",
+    "expertise": "Stakeholder Engagement",
+    "project": "Conference & Training AO",
+    "photo": "assets/ramata.png",
+    "biography": "Ramata-Hélène Gagnon serves as Senior Officer for Planning, Engagement, and Innovation within the Space Science and Technology (SST) branch. In this role, she oversees strategic planning and relationship management with a diverse range of stakeholders, both within the Canadian Space Agency (CSA) and externally, including industry, academia, and other government departments (OGDs). With an expertise in strategic planning and business, she contributes on diverse stakeholder-focused initiatives. Additionally, she plays a role in organizing workshops and activities in collaboration with CSA partners. Ramata holds a master’s degree in Business Strategy from HEC Montréal.",
+    "email": "mailto:ramata-helene.gagnon@asc-csa.gc.ca"
+},    
   {
     "last": "Mitchell",
     "first": "Amelia",
