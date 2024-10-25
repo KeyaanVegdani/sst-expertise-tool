@@ -1,4 +1,16 @@
 [
+    {
+    "last": "Gloutnay",
+    "first": "Eric",
+    "title": "Acting Manager, Power and Digital Electronic Engineering Group",
+    "directorate": "Engineering Development",
+    "project": "QEYSSat",
+    "expertise": "Electrical Engineering",
+    "photo": "assets/pfp1.png",
+    "biography": "Eric Gloutnay graduated from L'Ecole Polytechnique de Montreal in 1997 with a Bachelor of Engineering Science Degree in Engineering Physics. He joined the Canadian Space Agency in January 1996, working for the Canadian Astronaut Office on a project related to space radiation and its impact on astronauts and space systems.  Eric then joined the Power and Digital Electronic group in Space Science and Technologies Directorate where he participated in the design and testing of a satellite core (Quicksat).  He has also been active in different CSA projects related to the exploration of Mars (Phoenix and MSL), Astronomy (JWST, ASTRO-H), Space Utilization (RCM, M3MSAT, etc), and missions to the Moon (Gateway, Lunar Rover).  More recently he plays the role of System Engineer in the Quantum Key Distribution mission QEYSSAT.
+Adding to the expertise on space radiation environment and effects, Eric has expertise in Electro-Magnetic Compatibility, ElectroStatic Discharge, and Electrical Component Engineering.",
+    "email": "mailto:kva20@sfu.ca"
+},
   {
     "last": "Mitchell",
     "first": "Amelia",
